@@ -2,26 +2,21 @@
 GPT Text Summarizer and Rephraser App
 Author: Bakr Bagaber
 Date: September 19, 2023
+Version: 1.0.0
 
 Description:
 This Streamlit web application uses the OpenAI GPT (Generative Pre-trained Transformer) model
 to perform text summarization and paraphrasing tasks. Users can input text, select various
-options for the language model, target target_audience, tone of voice, and task to be performed.
+options for the language model, target audience, tone of voice, and task to be performed.
 The application then generates a summary or paraphrased version of the input text based on
 the user's preferences.
-
-Usage Instructions:
-1. Enter the text you want to summarize or paraphrase in the text input area.
-2. Adjust the model parameters and options in the corresponding sections.
-3. Click the "Start" button to initiate the text summarization or paraphrasing process.
-4. The generated output will be displayed below the input and parameter sections.
 
 Note: Ensure that you have set your OpenAI API key in a .env file to use this application.
 
 Disclaimer:
 This application is for demonstration purposes and may incur API usage costs for the OpenAI service.
 
-RUN: streamlit run c:\phd\gpt\summarizer_app.py
+RUN: streamlit run \PATH\summarizer_app.py
 """
 
 import openai
